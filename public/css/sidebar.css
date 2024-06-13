@@ -1,0 +1,98 @@
+li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+}
+header h5 {
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #233C5A;
+    padding: 10% 0;
+    font-weight: bold;
+    height: 10%;
+
+}
+.aside1 {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    background-color: #233C5A;
+}
+
+main {
+    margin-left: 210px;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a {
+    padding: 10px 20px;
+    /* margin: 5px 0 5px 0; */
+    display: block;
+    color: #ffffff;
+}
+
+aside a:hover {
+    background-color: #0268dd;
+}
+
+aside a:active {
+    background-color: #001881;
+}
+
+aside .icon {
+    width: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+.brand {
+    width: 30%;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+    color: beige;
+    font-size: small;
+    padding-bottom: 5%;
+}
+
+table.table {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+div.table tr {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.table tr:hover {
+    background-color: #777;
+  }
+
+#network-device-dropdown {
+    position: absolute;
+    display: none;
+    background-color: #222D31;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    z-index: 1;
+}
+
+#inventory-dropdown:hover #network-device-dropdown,
+#network-device-dropdown:hover {
+    display: block;
+}

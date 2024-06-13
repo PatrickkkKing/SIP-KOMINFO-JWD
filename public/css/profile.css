@@ -1,0 +1,6 @@
+.profile-photo {
+    width: 100px; /* Ubah sesuai dengan ukuran yang diinginkan */
+    height: 100px; /* Ubah sesuai dengan ukuran yang diinginkan */
+    border-radius: 50%; /* Ini yang membuat bentuknya menjadi lingkaran */
+    object-fit: cover; /* Menjaga proporsi gambar */
+}
