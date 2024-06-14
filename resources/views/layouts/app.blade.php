@@ -93,7 +93,7 @@
                 </li>
                 @role('admin')
                 <li>
-                    <a href="{{url('pelatihan/')}}">
+                    <a href="{{url('dataPengguna/')}}">
                         <img class="icon" src="{{ asset('img/admin.png') }}" alt=""> Data Pengguna
                     </a>
                 </li>

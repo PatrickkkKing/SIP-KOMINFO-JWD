@@ -50,6 +50,8 @@ Route::group(['middleware' => ['auth']], function () {
         Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show')->middleware('auth');
         Route::post('/profile', [App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update')->middleware('auth');
 
+        Route::get('/dataPengguna', [App\Http\Controllers\PenggunaController::class, 'index'])->name('dataPengguna.index')->middleware('auth');
+
     });
 });
 

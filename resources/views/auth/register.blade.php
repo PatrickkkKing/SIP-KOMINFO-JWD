@@ -21,7 +21,7 @@
     <title>Register | P-JWD KOMINFO</title>
     <link rel="icon" href="{{ asset('img/logo-kominfo.png') }}" type="image/x-icon">
 </head>
-<body>
+<body style="background-color: rgb(231, 230, 230)">
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-8">

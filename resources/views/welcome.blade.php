@@ -46,6 +46,7 @@
                         <li><a href="{{url('page/pelatihan')}}">Pelatihan</a></li>
                         <li><a href="{{url('page/kontak')}}">Kontak</a></li>
                         <li><a href="{{url('page/tentang')}}">About</a></li>
+                        <li><a href="{{ route('login') }}">Login</a></li>
                         {{-- <li style="">
                             @if (Route::has('login'))
                                 <div class="p-2">

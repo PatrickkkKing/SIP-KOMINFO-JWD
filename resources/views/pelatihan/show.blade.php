@@ -16,7 +16,7 @@
         <div class="card-body">
             <div class="row mb-3">
                 <div class="col-md-6"><strong>Nama Mahasiswa:</strong> {{ $pelatihan->user->name }}</div>
-                <div class="col-md-6"><strong>Universitas Mahasiswa:</strong> {{ $pelatihan->universitas_mahasisw }}</div>
+                <div class="col-md-6"><strong>Universitas Mahasiswa:</strong> {{ $pelatihan->universitas_mahasiswa }}</div>
             </div>
             <div class="row mb-3">
                 <div class="col-md-6"><strong>Prodi Mahasiswa:</strong> {{ $pelatihan->prodi_mahasiswa }}</div>
@@ -28,28 +28,36 @@
             </div>
             <div class="row mb-3">
                 <div class="col-md-6"><strong>Transkip Mahasiswa:</strong></div>
+                <div class="col-md-6"><strong>Sertifikat mahasiswa:</strong></div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     @if ($pelatihan->berkas_mahasiswa)
-                        <img src="{{ asset('storage/' . $pelatihan->berkas_mahasiswa) }}" alt="Transkip Nilai" class="img-fluid">
+                        <img src="{{ asset('storage/' . $pelatihan->berkas_mahasiswa) }}" alt="Transkip Nilai" class="img-fluid" width="400">
                     @else
                         <p>Tidak ada transkip tersedia.</p>
                     @endif
                 </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-md-6 mt-5"><strong>Sertifikat mahasiswa:</strong></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     @if ($pelatihan->sertifikat_mahasiswa)
-                        <img src="{{ asset('storage/' . $pelatihan->sertifikat_mahasiswa) }}" alt="Sertifikat Keahlian" class="img-fluid">
+                        <img src="{{ asset('storage/' . $pelatihan->sertifikat_mahasiswa) }}" alt="Sertifikat Keahlian" class="img-fluid" width="400">
                     @else
                         <p>Tidak ada sertifikat tersedia.</p>
                     @endif
                 </div>
             </div>
+            {{-- <div class="row mb-3">
+                <div class="col-md-6 mt-5"><strong>Sertifikat mahasiswa:</strong></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    @if ($pelatihan->sertifikat_mahasiswa)
+                        <img src="{{ asset('storage/' . $pelatihan->sertifikat_mahasiswa) }}" alt="Sertifikat Keahlian" class="img-fluid" width="450">
+                    @else
+                        <p>Tidak ada sertifikat tersedia.</p>
+                    @endif
+                </div>
+            </div> --}}
         </div>
     </div>
 </div>

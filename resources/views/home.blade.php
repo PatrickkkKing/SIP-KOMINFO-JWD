@@ -39,8 +39,8 @@
                             <img src="{{ asset('img/profile.png') }}" alt="pengguna" class="ml-auto" style="height: 50px; background-color: rgba(3, 174, 198, 0.5);">
                         </div>
                         <div class="card-header" style="background-color:#018799">
-                            <a href="{{ url('home/') }}" class="text-decoration-none text-dark justify-content-between align-items-center d-flex">
-                                <h5 class="text-start fs-6">Data Pengguna</h5>
+                            <a href="{{ url('dataPengguna/') }}" class="text-decoration-none text-dark justify-content-between align-items-center d-flex">
+                                <h5 class="text-start fs-6">Data Pendaftar</h5>
                                 <img src="{{ asset('img/panah.png') }}" alt="Panah">
                             </a>
                             {{-- <img src="{{ asset('img/panah.png') }}" alt="Panah"> --}}
@@ -57,7 +57,7 @@
                             <img src="{{ asset('img/magang.png') }}" alt="magang" class="ml-auto" style="height: 50px; background-color: rgba(3, 174, 198, 0.5);">
                         </div>
                         <div class="card-header" style="background-color:#018799">
-                            <a href="{{ url('internships/') }}" class="text-decoration-none text-dark justify-content-between align-items-center d-flex">
+                            <a href="{{ url('pelatihan/') }}" class="text-decoration-none text-dark justify-content-between align-items-center d-flex">
                                 <h5 class="text-start fs-6">Data Pelatihan JWD</h5>
                                 <img src="{{ asset('img/panah.png') }}" alt="Panah">
                             </a>
