@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <title>Detail Pendaftar Pelatihan JWD | DISKOMINFO </title>
+    <title>Detail Pendaftar Pelatihan JWD | KOMINFO </title>
 
 @section('content')
 <div class="container">
@@ -32,19 +32,19 @@
             <div class="row">
                 <div class="col-md-12">
                     @if ($pelatihan->berkas_mahasiswa)
-                        <img src="{{ asset('storage/' . $pelatihan->berkas_mahasiswanya) }}" alt="Transkip Nilai" class="img-fluid">
+                        <img src="{{ asset('storage/' . $pelatihan->berkas_mahasiswa) }}" alt="Transkip Nilai" class="img-fluid">
                     @else
                         <p>Tidak ada transkip tersedia.</p>
                     @endif
                 </div>
             </div>
             <div class="row mb-3">
-                <div class="col-md-6"><strong>Sertifikat mahasiswa:</strong></div>
+                <div class="col-md-6 mt-5"><strong>Sertifikat mahasiswa:</strong></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     @if ($pelatihan->sertifikat_mahasiswa)
-                        <img src="{{ asset('storage/' . $pelatihan->sertifikat_mahasiswanya) }}" alt="Sertifikat Keahlian" class="img-fluid">
+                        <img src="{{ asset('storage/' . $pelatihan->sertifikat_mahasiswa) }}" alt="Sertifikat Keahlian" class="img-fluid">
                     @else
                         <p>Tidak ada sertifikat tersedia.</p>
                     @endif

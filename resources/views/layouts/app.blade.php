@@ -62,7 +62,7 @@
     <!-- Sidebar-->
     <div class="aside1">
         <header>
-            <h5 style="color: whitesmoke; margin-bottom: 10%;">P-JWD DISKOMINFO</h5>
+            <h5 style="color: whitesmoke; margin-bottom: 10%;">P-JWD KOMINFO</h5>
 
             @if (Auth::check() && Auth::user()->profile_photo)
                 <img src="{{ asset('storage/' . Auth::user()->profile_photo) }}" class="profile-photo">
@@ -189,7 +189,7 @@
 
         <footer class="bg-light border-top">
             <div class="p-3">
-                2024 © Sistem Informasi Pengajuan Magang DISKOMINFO
+                2024 © Sistem Informasi Pendaftaran Pelatihan KOMINFO
             </div>
         </footer>
         

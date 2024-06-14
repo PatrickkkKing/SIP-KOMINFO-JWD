@@ -18,8 +18,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('welcome'); // Menampilkan halaman welcome saat pengguna mengakses '/'
+})->name('welcome');
+
+Route::get('/main', function () {
+    return view('main'); // Menampilkan halaman utama (main.blade.php) saat pengguna mengakses '/main'
+})->name('page.index');
+
+Route::get('/page', [App\Http\Controllers\PageController::class, 'index'])->name('home');
+Route::get('/page/visi-misi', [App\Http\Controllers\PageController::class, 'visimisi'])->name('home');
+Route::get('/page/pelatihan', [App\Http\Controllers\PageController::class, 'pelatihan'])->name('home');
+Route::get('/page/kontak', [App\Http\Controllers\PageController::class, 'kontak'])->name('home');
+Route::get('/page/tentang', [App\Http\Controllers\PageController::class, 'tentang'])->name('home');
 
 Auth::routes();
 

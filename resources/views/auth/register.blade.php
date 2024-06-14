@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap-utillities.css') }}">
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
-    <title>Register | P-JWD DISKOMINFO</title>
+    <title>Register | P-JWD KOMINFO</title>
     <link rel="icon" href="{{ asset('img/logo-kominfo.png') }}" type="image/x-icon">
 </head>
 <body>
@@ -27,7 +27,7 @@
             <div class="col-md-8">
                 <img src="{{ asset('img/logo-kominfo.png') }}" alt="Logo" style="max-width: 100px; display: block; margin: 0 auto;">
                 <div class="card">
-                    <div class="card-header" style="background-color: rgb(63, 63, 252); text-align: center; font-weight: bold;">{{ __('Register ke P-JWD DISKOMINFO') }}</div>
+                    <div class="card-header" style="background-color: rgb(63, 63, 252); text-align: center; font-weight: bold;">{{ __('Register ke P-JWD KOMINFO') }}</div>
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('register') }}">
@@ -91,6 +91,10 @@
                                 </div>
                             </div>
                         </form>
+                        <div class="d-flex mt-2">
+                            <p>Sudah punya Akun ??? Silahkan <a href="{{ route('login') }}">Login</a></p>
+                            {{-- <a href="{{ route('login') }}" class="btn">Login</a> --}}
+                        </div>
                     </div>
                 </div>
             </div>

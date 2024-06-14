@@ -6,7 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <title>Home | DISKOMINFO </title>
+    <title>Home | KOMINFO </title>
     <link rel="icon" href="{{ asset('img/logo-kominfo.png') }}" type="image/x-icon">
 
 

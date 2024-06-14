@@ -46,7 +46,7 @@ class PelatihanController extends Controller
         ]);
 
         $path = $request->file('berkas_mahasiswa')->store('berkas_mahasiswanya', 'public');
-        $path = $request->file('sertifikat_mahasiswa')->store('sertifikat_mahasiswanya', 'public');
+        $path2 = $request->file('sertifikat_mahasiswa')->store('sertifikat_mahasiswanya', 'public');
 
         Pelatihan::create([
             'user_id' => Auth::id(),
@@ -55,7 +55,7 @@ class PelatihanController extends Controller
             'nohp_mahasiswa' => $request->nohp_mahasiswa,
             'email_mahasiswa' => $request->email_mahasiswa,
             'berkas_mahasiswa' => $path,
-            'sertifikat_mahasiswa' => $path,
+            'sertifikat_mahasiswa' => $path2,
             'status' => 'proses',
         ]);
 
