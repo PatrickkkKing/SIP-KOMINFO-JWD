@@ -20,3 +20,8 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+
+## Sistem Pendaftaran Pelatihan Digital Talent Schoolarship
+Halaman Home
+![image](https://github.com/PatrickkkKing/SIP-KOMINFO-JWD/assets/116421423/46282e71-d70c-466e-ab39-9d210c1df9dd)
