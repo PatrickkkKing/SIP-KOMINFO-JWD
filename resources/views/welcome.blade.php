@@ -41,7 +41,7 @@
 
                 <nav>
                     <ul>
-                        <li><a href="{{url('page')}}">Home</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
                         <li><a href="{{url('page/visi-misi')}}">Visi Misi</a></li>
                         <li><a href="{{url('page/pelatihan')}}">Pelatihan</a></li>
                         <li><a href="{{url('page/kontak')}}">Kontak</a></li>

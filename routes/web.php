@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome'); // Menampilkan halaman welcome saat pengguna mengakses '/'
-})->name('welcome');
+    return view('main'); // Menampilkan hamain saat pengguna mengakses '/'
+})->name('main');
 
 Route::get('/main', function () {
     return view('main'); // Menampilkan halaman utama (main.blade.php) saat pengguna mengakses '/main'
